@@ -11,7 +11,7 @@ from langchain_classic.chains import RetrievalQA
 # 1. INITIALIZATION & SETUP
 # -------------------------------------------------------------
 # ⚠️ MAKE SURE YOU PUT YOUR ACTUAL GROQ API KEY HERE!
-os.environ["GROQ_API_KEY"] = "YOUR_ACTUAL_GROQ_API_KEY"
+os.environ["GROQ_API_KEY"] = "gsk_DjD3R************hCuVlJYYOtygl4v"
 
 print("Initializing AI Models...")
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
